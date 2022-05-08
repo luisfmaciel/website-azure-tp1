@@ -1,0 +1,86 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<div class="d-flex justify-content-start align-items-center rounded-3 bg-light shadow-sm" style="height: 200px; max-width: 700px;">
+    <img src="~/img/photo_profile.jpg" class="h-100 rounded-start me-3"/>
+    <div class="d-flex flex-column p-3">
+        <h2 class="text-blue500 fw-bold">Luis Felipe Maciel</h2>
+        <div class="d-flex flex-column text-muted">
+            <span>luis.barbosa@al.infnet.edu.br</span>
+            <span class="mt-4">TP1 - Desenvolvimento de serviços Web e Microsoft Azure</span>
+            <span>Prof.: Julio Guimarães</span>
+        </div>
+    </div>
+</div>
+<div class="w-50 mt-5 mb-5">
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingOne">
+          <button class="accordion-button collapsed bg-blue50 text-light rounded-top" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+            Infrastructure as a Service (IaaS)
+          </button>
+        </h2>
+        <div id="flush-collapseOne" class="accordion-collapse collapse bg-blue500 text-light p-3" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">
+            Infraestrutura como Serviço, em inglês Infrastructure as a Service (IaaS), é um serviço 
+            de computação em cloud onde um fornecedor viabiliza para os usuários acesso a recursos de 
+            infraestrutura, como  servidores, armazenamento, redes, virtualização. Nesse contexto, o
+            usuário será responsável pelo uso de seus próprios aplicativos, sistema operacional, 
+            componentes de middleware e ambientes de execução. Em geral, o pagamento pela utilização da 
+            infraestrutura é sob demanda.<br/>
+            Exemplo de IaaS:
+            <ul class="mt-1"> 
+                <li>IBM Cloud</li>
+                <li>Microsoft Azure</li>
+                <li>AWS</li>
+            </ul>
+        </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingTwo">
+          <button class="accordion-button collapsed bg-blue50 text-light" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+            Platform as a Service (PaaS)
+          </button>
+        </h2>
+        <div id="flush-collapseTwo" class="accordion-collapse collapse bg-blue500 text-light p-3" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">
+            Plataforma como Serviço, em inglês Platform as a Service (Paas), permite que ao usuário 
+            desenvolver, executar, hospedar e gerenciar aplicativos em um ambiente cloud, além 
+            desses recursos, os usuários podem usar um conjunto de ferramentas para custumizar e
+            testar seus próprios aplicativos. Nesse sentido, a utilização da PaaS minimiza a 
+            preocupação dos usuários/organizações com a infraestrutura necessária para o desenvolvimento
+            de determinada aplicação.<br/>
+            Exemplo de PaaS:
+            <ul class="mt-1">
+                <li>IBM Cloud Platform</li>
+                <li>RedHat OpenShift</li>
+                <li>Salesforce Platform</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingThree">
+          <button class="accordion-button collapsed bg-blue50 text-light rounded-bottom" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+            Software as a Service (SaaS)
+          </button>
+        </h2>
+        <div id="flush-collapseThree" class="accordion-collapse collapse bg-blue500 text-light p-3" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">
+            Software como Serviço, em inglês Software as a Service (SaaS), é um modelo no qual uma 
+            aplicação reside em uma rede cloud, tendo seu acesso feito de forma remota por meio da 
+            web ou de uma API, ou seja, o usuário não precisa instalar ou fazer upgrades do software, 
+            pois os provedores SaaS que irão gerenciar a aplicação. Dessa forma, os aplicativos se 
+            tornam acessíveis em qualquer lugar do mundo a partir de um dispositivo conectado à internet.<br/>
+            Exemplos de Saas:
+            <ul class="mt-1">
+                <li>Paypal</li>
+                <li>Netflix</li>
+                <li>Google Analytics</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
